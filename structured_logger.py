@@ -27,6 +27,9 @@ class StructuredLogger:
     """
     Structured Logger Class for Google Cloud Logging.
 
+    Reference:
+    https://cloud.google.com/logging/docs/structured-logging
+
     Usage example:
     Logger.info("info log", extra={"key1": "foo", "key2": "bar"})
     => {"name": "transcriber", "message": "hoge", "key1": "foo", "key2": "bar", "timestamp": "2023-06-01T00:00.000000Z", "severity": "INFO"}
